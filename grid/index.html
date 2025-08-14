@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Photo Gallery</h1>
+    </header>
+
+    <div class="container">
+        <div class="box" style="background-image: url('i1.jpg');"></div>
+        <div class="box" style="background-image: url('i2.jpeg');"></div>
+        <div class="box" style="background-image: url('i3.jpeg');"></div>
+        <div class="box" style="background-image: url('i4.jpg');"></div>
+        <div class="box" style="background-image: url('i5.jpg');"></div>
+        <div class="box" style="background-image: url('i6.jpg');"></div>
+        <div class="box" style="background-image: url('i7.jpeg');"></div>
+        <div class="box" style="background-image: url('i8.jpeg');"></div>
+        <div class="box" style="background-image: url('i9.jpg');"></div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <span class="prev">&#10094;</span>
+        <img id="lightbox-img" src="" alt="Enlarged Image">
+        <span class="next">&#10095;</span>
+    </div>
+
+    <footer class="footer">
+        <p>&#169; Made by Divyanshi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
